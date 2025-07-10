@@ -1,12 +1,11 @@
 & "$PSScriptRoot\..\gitmodules\mod-installer\build_all.ps1" `
-  -Version "<version>" `
+  -Version "2.0.0" `
   -PreReleaseVersion "beta.1" `
-  -OutputFilePrefix "<output file prefix>" `
-  -ModName "<mod name>" `
-  -ModFolder "<mod folder>" `
-  -AdditionalModFolders @() `
+  -OutputFilePrefix "The_Island_1.0c" `
+  -ModName "The Island 1.0c" `
+  -ModFolder "Half-Life 2 - The Island" `
   -ModFilesPath "$PSScriptRoot\..\game" `
-  -ModBaseFilesUrl "<url to mod base files zip>" `
-  -ModBaseFilesUrlHash "<mod base files zip sha256>" `
-  -ModReadmePath "<mod readme path>" `
+  -ModBaseFilesUrl "https://github.com/HL2-Mods-Legacy-Project/hl2-legacy-registry/releases/download/the-island/The-Island-1.0c-Original.zip" `
+  -ModBaseFilesUrlHash "e80c3ece44984f01fe4b382b494d3bd5c6e5b924427c257de6118bbc17cd133f" `
+  -ModReadmePath "README.txt" `
   -PublishPath "$PSScriptRoot\..\artifacts\publish"
